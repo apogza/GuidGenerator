@@ -15,8 +15,9 @@ namespace ModuleGuidViews.ViewModels
         public GenerateGuidViewModel()
         {
             GenerateGuidCommand = new DelegateCommand(GenerateGuid);
-
             CopyGuidToClipBoardCommand = new DelegateCommand(CopyGuidToClipboard);
+
+            IsLowerCase = true;
         }
 
         private string _guid;
@@ -26,10 +27,17 @@ namespace ModuleGuidViews.ViewModels
             set { SetProperty(ref _guid, value); }
         }
 
+        private bool _isLowerCase;
+        public bool IsLowerCase
+        {
+            get { return _isLowerCase; }
+            set { SetProperty(ref _isLowerCase, value); }
+        }
+
         private void GenerateGuid()
         {
             Guid guid = System.Guid.NewGuid();
-            Guid = guid.ToString();
+            Guid = IsLowerCase ? guid.ToString() : guid.ToString().ToUpper();
         }
 
         public void CopyGuidToClipboard()
