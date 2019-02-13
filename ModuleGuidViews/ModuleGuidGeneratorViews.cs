@@ -1,9 +1,9 @@
-﻿using ModuleGuidViews.Views;
+﻿using GuidGeneratorViews.Views;
 using Prism.Ioc;
 using Prism.Modularity;
 using Prism.Regions;
 
-namespace ModuleGuidViews
+namespace GuidGeneratorViews
 {
     public class ModuleGuidGeneratorViews : IModule
     {

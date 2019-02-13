@@ -3,7 +3,7 @@ using Prism.Mvvm;
 using System;
 using System.Windows;
 
-namespace ModuleGuidViews.ViewModels
+namespace GuidGeneratorViews.ViewModels
 {
     public class GenerateGuidViewModel : BindableBase
     {

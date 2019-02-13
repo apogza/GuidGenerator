@@ -136,12 +136,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ModuleGuidViews\ModuleGuidViews.csproj">
-      <Project>{4dfcd214-a9a4-4d20-ae6a-ab049b18beb8}</Project>
-      <Name>ModuleGuidViews</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
       <Visible>False</Visible>
       <ProductName>Microsoft .NET Framework 4.6.1 %28x86 and x64%29</ProductName>
@@ -157,6 +151,12 @@
     <Resource Include="Images\g-icon.ico">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ModuleGuidViews\GuidGeneratorViews.csproj">
+      <Project>{4dfcd214-a9a4-4d20-ae6a-ab049b18beb8}</Project>
+      <Name>GuidGeneratorViews</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

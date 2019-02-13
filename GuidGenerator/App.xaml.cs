@@ -1,5 +1,5 @@
 ﻿using GuidGenerator.Views;
-using ModuleGuidViews;
+using GuidGeneratorViews;
 using Prism.Ioc;
 using Prism.Modularity;
 using Prism.Unity;

@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.27703.2018
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuidGenerator", "GuidGenerator\GuidGenerator.csproj", "{422F20E0-1A5F-4BA6-B285-BB1DCB9294AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModuleGuidViews", "ModuleGuidViews\ModuleGuidViews.csproj", "{4DFCD214-A9A4-4D20-AE6A-AB049B18BEB8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuidGeneratorViews", "ModuleGuidViews\GuidGeneratorViews.csproj", "{4DFCD214-A9A4-4D20-AE6A-AB049B18BEB8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{524AA8B2-8F26-47F1-8A81-39ADD1883130}"
 	ProjectSection(SolutionItems) = preProject

@@ -7,8 +7,8 @@
     <ProjectGuid>{4DFCD214-A9A4-4D20-AE6A-AB049B18BEB8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ModuleGuidViews</RootNamespace>
-    <AssemblyName>ModuleGuidViews</AssemblyName>
+    <RootNamespace>GuidGeneratorViews</RootNamespace>
+    <AssemblyName>GuidGeneratorViews</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

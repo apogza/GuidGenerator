@@ -1,7 +1,7 @@
 ﻿using System.Windows;
 using System.Windows.Controls;
 
-namespace ModuleGuidViews.Views
+namespace GuidGeneratorViews.Views
 {
     /// <summary>
     /// Interaction logic for GenerateGuidView.xaml
